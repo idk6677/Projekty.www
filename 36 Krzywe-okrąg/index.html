@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+ <meta charset="utf-8">
+ <title>Okrąg</title>
+ <script>
+window.onload = function() {
+var canvas = document.getElementById("drawingCanvas");
+var context = canvas.getContext("2d");
+
+// Zmienne przechowujące parametry łuku
+var centerX = 150;
+var centerY = 300;
+var radius = 100;
+var startingAngle = 0;
+var endingAngle = 2 * Math.PI;
+
+// Wykorzystanie powyższych parametrów do narysowania łuków
+context.arc(centerX, centerY, radius, startingAngle,
+endingAngle);
+context.stroke();
+}
+ </script>
+</head>
+<body>
+    <canvas id="drawingCanvas" width="1000" height="500"></canvas>
+</body>

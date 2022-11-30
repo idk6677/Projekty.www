@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: black;
+    color: blanchedalmond;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    height: 120px;
+    line-height: 120px;
+}
+nav {
+    background-color: blueviolet;
+    color: blanchedalmond;
+    padding: 30px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+article {
+    background-color: blanchedalmond;
+    color: black;
+    width: 70%;
+    float: left;
+    padding: 30px;
+    height: 200px;
+}
+aside {
+    background-color: burlywood;
+    color: blanchedalmond;
+    width: 30%;
+    float: left;
+    height: 200px;
+    padding: 30px;
+    text-align: center;
+    line-height: 150px;
+}
+footer {
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    height: 100px;
+    padding: 50px;
+    clear: both;
+    line-height: 50%;
+}
+section {
+    border: 1px solid black;
+    padding: 30px;
+}

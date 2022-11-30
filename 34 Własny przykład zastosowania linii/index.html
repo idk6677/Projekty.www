@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+ <meta charset="utf-8">
+ <title>Gwiazda</title>
+ <style>
+canvas {
+ border: 1px dashed black;
+}
+ </style>
+ <script>
+window.onload = function() {
+ var canvas = document.getElementById("drawingCanvas");
+ var context = canvas.getContext("2d");
+
+ context.stroke();
+ context.lineCap = "round";
+ context.lineWidth = 3;
+ context.strokeStyle = "#ff6";
+ context.beginPath();
+ context.moveTo(250,10);
+ context.lineTo(220,70);
+ context.stroke();
+ context.beginPath();
+ context.moveTo(250,10);
+ context.lineTo(280,70);
+ context.stroke();
+ context.lineWidth = 5;
+ context.strokeStyle = "#fc3";
+ context.beginPath();
+ context.moveTo(220,70);
+ context.lineTo(150,70);
+ context.stroke();
+ context.beginPath();
+ context.moveTo(280,70);
+ context.lineTo(350,70);
+ context.stroke();
+ context.beginPath();
+ context.moveTo(150,70);
+ context.lineTo(200,120);
+ context.stroke();
+ context.beginPath();
+ context.moveTo(350,70);
+ context.lineTo(300,120);
+ context.stroke();
+ context.lineWidth = 7;
+ context.strokeStyle = "#f90";
+ context.beginPath();
+ context.moveTo(200,120);
+ context.lineTo(170,190);
+ context.stroke();
+ context.beginPath();
+ context.moveTo(300,120);
+ context.lineTo(330,190);
+ context.stroke();
+ context.beginPath();
+ context.moveTo(170,190);
+ context.lineTo(250,150);
+ context.stroke();
+ context.beginPath();
+ context.moveTo(330,190);
+ context.lineTo(250,150);
+ context.stroke();
+};
+ </script>
+</head>
+<body>
+ <canvas id="drawingCanvas" width="500" height="300"></canvas>
+</body>
+</html>

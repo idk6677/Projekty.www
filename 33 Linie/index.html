@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+ <meta charset="utf-8">
+ <title>Linie</title>
+ <style>
+canvas {
+ border: 1px dashed black;
+4
+}
+ </style>
+ <script>
+window.onload = function() {
+ var canvas = document.getElementById("drawingCanvas");
+ var context = canvas.getContext("2d");
+
+ context.lineWidth = 20;
+ context.strokeStyle = "#DC143C";
+ context.moveTo(30,50);
+ context.lineTo(30,250);
+ context.lineCap = "butt";
+ context.stroke();
+ context.strokeStyle = "#FF4500";
+ context.beginPath();
+ context.moveTo(80,70);
+ context.lineTo(80,230);
+ context.lineCap = "round";
+ context.stroke();
+ context.strokeStyle = "#FF8C00";
+ context.beginPath();
+ context.moveTo(130,30);
+ context.lineTo(130,270);
+ context.lineCap = "square";
+ context.stroke();
+};
+ </script>
+</head>
+<body>
+ <canvas id="drawingCanvas" width="500" height="300"></canvas>
+</body>
+</html>

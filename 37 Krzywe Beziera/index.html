@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+ <meta charset="utf-8">
+ <title>Krzywe Beziera</title>
+ <script>
+window.onload = function() {
+var canvas = document.getElementById("drawingCanvas");
+var context = canvas.getContext("2d");
+
+context.moveTo(62, 242);
+
+var control1_x = 90;
+var control1_y = 101;
+var control2_x = 331;
+var control2_y = 459;
+var endPointX = 359;
+var endPointY = 231;
+
+context.bezierCurveTo(control1_x, control1_y, control2_x,
+control2_y, endPointX, endPointY);
+context.closePath();
+context.stroke();
+}
+</script>
+</head>
+<body>
+    <canvas id="drawingCanvas" width="1000" height="500"></canvas>
+</body>
+</html>

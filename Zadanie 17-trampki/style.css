@@ -1,0 +1,21 @@
+body{
+    background-color: bisque;
+    color: darkred;
+    margin: 30px;
+}
+fieldset{
+    padding: 30px;
+}
+legend{
+    padding: 0;
+}
+#comment{
+    width: 400px;
+    height: 70px;
+}
+#pole{
+    padding: 10px;
+}
+#rozmiar{
+    padding: 15px;
+}

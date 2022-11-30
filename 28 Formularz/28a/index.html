@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+ <title>Króciutki dokument HTML</title>
+ <!--To jest komentarz-->
+ <meta name="author" content="Kaja Biczkowska 1p">
+</head>
+<body>
+    <form action="http://www.roy.icenter.pl/form/" method="post">
+        <fieldset>
+            <legend>Zostaw swój komentarz</legend>
+            <input type="hidden" name="to" value="biczkowskakaja@gmail.com" />
+            <input type="hidden" name="subject" value="Testowa wiadomość" />
+            <dl>
+                <dt><strong>Imię:</strong></dt>
+                <dd><input type="text" name="imię" size="30"></dd>
+                <dt><strong>E-mail:</strong></dt>
+                <dd><input type="email" name="email" size="30"></dd>
+                <dt><strong>Komentarz:</strong></dt>
+                <dd><textarea name="opinie" cols="50" rows="30"></textarea></dd>
+            </dl>
+            <p>
+                <input type="submit" value="Wyślij">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
