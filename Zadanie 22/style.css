@@ -1,0 +1,28 @@
+header{
+    background-color: black;
+    color: orange;
+    text-align: center;
+    height: 60px;
+}
+nav {
+    background-color: gray;
+    float: left;
+    width: 30%;
+
+}
+div{
+    background-color: yellow;
+    float: right;
+    width: 70%;
+}
+aside  {
+    background-color: aqua;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    height: 60px;
+}
