@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: aqua;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+nav {
+    background-color: gray;
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+article {
+    width: 75%;
+    background-color: white;
+    float: left;
+    padding: 20px;
+    text-align: justify;
+    border: black 1px solid;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    clear: both;
+}

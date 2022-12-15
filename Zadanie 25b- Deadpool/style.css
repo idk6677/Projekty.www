@@ -7,24 +7,30 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-    height: 50px;
-    width: 1000px;
     padding: 20px;
+    border-bottom-style: dotted;
 }
-
+#container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 #lista{
-    float: right;
+    position: absolute;
+    top: 100px;
+    right: 270px;
     background-color: black;
-    opacity: 50%;
+    opacity: 70%;
     color: white;
-    height: 200px;
-    padding: 20px;
+    padding: 15px;
+    height: 220px;
+    width: 250px;
+    border-radius: 20px;
 }
 footer{
     background-color: black;
-    color: white;
-    width: 1000px;
-    height: 50px;
+    color: bisque;
     text-align: center;
     padding: 20px;
+    margin: 0;
 }
