@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("Gwiazda.jpg");
+    background-repeat: repeat-x;
+    background-position: top;
+    background-size: 200px;
+    margin-top: 200px;
+}
+.content{
+    padding: 20px;
+    background-color: #FFF;
+    float: bottom;
+}

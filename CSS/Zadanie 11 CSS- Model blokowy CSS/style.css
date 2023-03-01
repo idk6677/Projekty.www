@@ -1,0 +1,31 @@
+* {
+    text-align: center;
+    margin-top: 10px;
+}
+#container div:first-child {
+   border: thick dotted red;
+}
+#container div:nth-child(2) {
+    border: thick dashed red;
+}
+#container div:nth-child(3) {
+    border: thick solid red;
+}
+#container div:nth-child(4) {
+    border: thick double red;
+}
+#container div:nth-child(5) {
+    border: thick groove red;
+}
+#container div:nth-child(6) {
+    border: thick ridge red;
+}
+#container div:nth-child(7) {
+    border: thick inset red;
+}
+#container div:nth-child(8) {
+    border: thick outset red;
+}
+#container div:nth-child(2n) {
+    background-color: greenyellow;
+}

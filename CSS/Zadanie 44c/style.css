@@ -1,0 +1,41 @@
+* {
+    background-color: #EEEEEE;
+}
+#container {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+#logo {
+    background-color: #C0C0C0;
+    height: 100px;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#menu {
+    background-color: #C0C0C0;
+    height: 100px;
+    width: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#baner {
+    background-color: #DDDDDD;
+    height: 200px;
+}
+#blok-główny {
+    padding: 50px;
+}
+#stopka {
+    background-color: #C0C0C0;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+#menu > a {
+    color: #555555;
+    padding: 50px;
+    font-size: 200%;
+}
