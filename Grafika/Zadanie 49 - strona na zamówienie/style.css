@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+#menu{
+    background-color: aquamarine;
+    width: 200px;
+    height: 650px;
+    float: left;
+}
+#header{
+    background-color: white;
+    width: 1000px;
+    float: right;
+    text-align: center;
+}
+#footer{
+    background-color: cyan;
+    text-align: center;
+    clear: both;
+}
+#img{
+    background-color: chartreuse;
+    width: 1000px;
+    height: 650px;
+    float: right;
+}
+#container{
+    width: 1200px;
+    height: 750px;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+}
+#img1{
+    float: right;
+}
+#img2{
+    padding-left: 230px;
+    padding-top: 100px;
+}
