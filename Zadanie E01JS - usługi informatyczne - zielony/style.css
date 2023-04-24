@@ -1,0 +1,28 @@
+body{
+    background-color: #99FFCC;
+}
+#container{
+    width: 1000px;
+    margin: auto;
+}
+#baner{
+    background-color: #99FF66;
+    height: 200px;
+}
+#blok menu{
+    background-color: #66CCFF;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#blok-główny{
+    width: 310px;
+    padding: 10px;
+}
+#stopka{
+    background-color: #66CCFF;
+    color: #006666;
+    text-align: right;
+    height: 30px;
+    padding: 20px;
+}

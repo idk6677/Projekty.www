@@ -1,4 +1,187 @@
-
-.overlay {
-
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, sans-serif;
 }
+body{
+    background-color: #303030;
+}
+.logo{
+    display: flex;
+    float: left;
+    padding: 50px 50px;
+}
+#container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+    color: #FFC200;
+    font-size: 30px;
+    padding: 10px;
+}
+.overlay{
+    position: relative;
+}
+.overlay .link{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #1A1A1A;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+}
+.overlay:hover .link{
+    opacity: 0.8;
+}
+a{
+    text-decoration: none;
+    color: #eaeaea;
+}
+.overlay p{
+    text-align: center;
+    padding: 150px;
+    font-size: 55px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+#menu{
+    margin-top: 15px;
+    width: 1000px;
+    padding: 10px 0;
+    background-color: #FFA701;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    font-size: 23px;
+    height: 40px;
+    line-height: 200%;
+    display: inline-block;
+}
+ul > li{
+    float: left;
+    width: 150px;
+    height: 40px;
+    border-right: 1px dashed #eaeaea;
+}
+ul > li:first-child{
+    border-left: 1px dashed #eaeaea;
+}
+ul > li:hover{
+    background-color: #ff781f;
+}
+#content{
+    width: 1000px;
+    background-color: #1A1A1A;
+    margin-top: 15px;
+}
+#historia{
+    position: relative;
+}
+#historia .link{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #1A1A1A;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-play-state: paused;
+}
+@keyframes slide{
+    from{
+        margin-left: 60%;
+    }
+    to{
+        margin-left: 0;
+    }
+}
+#historia .link:hover {
+    opacity: 0.97;
+    animation-play-state: running;
+}
+#historia p{
+    text-align: center;
+    padding: 140px;
+    font-size: 20px;
+}
+
+#czlonkowie .photo{
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 23px;
+    margin-left: 23px;
+}
+#czlonkowie p{
+    font-size: 25px;
+}
+#photo1{
+    position: relative;
+    transition: all 2s ease-in-out;
+}
+#photo1:hover{
+    transform: translateX(-300px) rotateY(-180deg);
+    opacity: 0;
+}
+#photo2{
+    position: relative;
+    transition: all 2s ease-in-out;
+}
+#photo2:hover{
+    transform: translateX(300px) rotateY(180deg);
+    opacity: 0;
+}
+#dyskografia .photo{
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+#dyskografia .photo{
+    position: relative;
+    transition: transform 1s ease-in-out;
+}
+#dyskografia .photo:hover{
+    transform: scale(1.5);
+}
+#dyskografia .photo .link {
+    position: absolute;
+    display: block;
+    width: 316px;
+    height: 60px;
+    background-color: #111;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#dyskografia .photo:hover .link{
+    opacity: 0.8;
+}
+#dyskografia p{
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
