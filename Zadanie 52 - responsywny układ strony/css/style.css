@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: #341d5c;
-  --secondary-color: #1b206e;
+  --secondary-color: #8c77be;
 }
 
 /* BASE STYLES */
@@ -311,6 +311,7 @@ section.home {
 }
 
 .contact-info .info-box {
+  display: flex;
   align-items: flex-start;
   margin-bottom: 40px;
 }
@@ -322,7 +323,6 @@ section.home {
 
 .contact-info .info-box .details h4 {
   color: var(--secondary-color);
-  display: flex;
 }
 
 .contact-info .info-box .details p,

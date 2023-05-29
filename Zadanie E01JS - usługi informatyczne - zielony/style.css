@@ -1,5 +1,7 @@
 body{
     background-color: #99FFCC;
+    margin: 0;
+    padding: 0;
 }
 #container{
     width: 1000px;
@@ -9,20 +11,58 @@ body{
     background-color: #99FF66;
     height: 200px;
 }
-#blok menu{
+#blok-menu{
     background-color: #66CCFF;
-    text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
+    height: 30px;
 }
-#blok-główny{
-    width: 310px;
+#blok-menu li{
+    float: left;
+}
+#blok-menu ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #006666;
+    margin: 50px;
+    font-size: 200%;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.kolumna{
     padding: 10px;
+    width: 310px;
+    float: left;
 }
+
+
 #stopka{
     background-color: #66CCFF;
     color: #006666;
     text-align: right;
     height: 30px;
     padding: 20px;
+    clear: both;
+}
+#kolumna2{
+    padding: 10px;
+    width: 310px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#submit{
+    background-color: #00FF00;
+}
+#reset{
+    background-color: #FF0000;
 }
