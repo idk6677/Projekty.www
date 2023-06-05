@@ -1,0 +1,36 @@
+body{
+    font-family: Helvetica;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: 200px auto auto auto;
+}
+
+#baner-lewy, #blok-lewy{
+    background-color: rgb(130,69,85);
+    color: white;
+    text-align: center;
+    grid-column: 1/-1;
+}
+
+#baner-prawy, #blok-prawy{
+    background-color: rgb(130,69,85);
+    color: white;
+    text-align: center;
+    grid-column: 1/-1;
+}
+
+#blok-główny, #stopka{
+    background-color: rgb(240,234,226);
+    padding: 120px;
+    grid-column: 1/-1;
+}
+
+table, td{
+    border: 1px rgb(130,69,85) solid;
+    color: rgb(130,69,85);
+    padding: 10px;
+}
+
+a {
+    color: rgb(240,234,226);
+}
